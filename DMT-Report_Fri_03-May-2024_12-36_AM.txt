@@ -1,0 +1,7 @@
+Databases : Source - dmvt-src.cxmou6648xpe.us-east-2.rds.amazonaws.com, Target - dmvt-trg.cfmksow2wz5g.us-west-2.rds.amazonaws.com
+Connections Established
+Migrating Table: Customers
+Migrated 10000 rows from Customers
+Migrating Table: User
+Migrated 10001 rows from User
+Migration Completed

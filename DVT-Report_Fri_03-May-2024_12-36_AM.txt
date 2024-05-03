@@ -1,0 +1,50 @@
+Databases : dmvt-src.cxmou6648xpe.us-east-2.rds.amazonaws.com, dmvt-trg.cfmksow2wz5g.us-west-2.rds.amazonaws.com
+Connections Established
+_________________________________________
+Available Database and sizes
+DB-1 dmvt-src.cxmou6648xpe.us-east-2.rds.amazonaws.com : (('559pro', Decimal('3.03')), ('information_schema', Decimal('0.00')), ('mysql', Decimal('7.86')), ('performance_schema', Decimal('0.00')), ('sys', Decimal('0.02')))
+DB-2 dmvt-trg.cfmksow2wz5g.us-west-2.rds.amazonaws.com : (('559pro', Decimal('0.03')), ('information_schema', Decimal('0.00')), ('mysql', Decimal('7.88')), ('performance_schema', Decimal('0.00')), ('sys', Decimal('0.02')))
+ 
+Matched DB Sizes : [('information_schema', Decimal('0.00')), ('performance_schema', Decimal('0.00')), ('sys', Decimal('0.02'))]
+UN-Matched DB Sizes : [('559pro', Decimal('3.03')), ('mysql', Decimal('7.86'))]
+ 
+_________________________________________
+Available Tables and sizes
+DB-1 dmvt-src.cxmou6648xpe.us-east-2.rds.amazonaws.com : (('Customers', Decimal('1.52')), ('User', Decimal('1.52')))
+DB-2 dmvt-trg.cfmksow2wz5g.us-west-2.rds.amazonaws.com : (('Customers', Decimal('0.02')), ('User', Decimal('0.02')))
+ 
+Matched Table Sizes : []
+UN-Matched Table Sizes : [('Customers', Decimal('1.52')), ('User', Decimal('1.52'))]
+ 
+_________________________________________
+Columns Counts
+DB-1 : (('Customers', 6), ('User', 6))
+DB-2 : (('Customers', 6), ('User', 6))
+ 
+Matched Table columns : [('Customers', 6), ('User', 6)]
+UN-Matched Table columns : []
+ 
+ 
+Matched tables : [('Customers',), ('User',)]
+ 
+ 
+0 Dvt Running For Table Customers
+THE MD5 Hash : 0a5765bab133804b9f2b89ae9da7928e
+All Values found in both 559pro , 559pro Databases
+length of DB1 rows 10000, DB2 rows 10000
+Comparing Random Rows
+Random row no :5410
+DB-1 Row : ('Kindra Kearns', 'moses-booker@techrepublic.com', '1558 Brunswick Street', 'Torrance', 'BS92 0VU', 'Togo')
+DB-2 Row : ('Kindra Kearns', 'moses-booker@techrepublic.com', '1558 Brunswick Street', 'Torrance', 'BS92 0VU', 'Togo')
+Row Matched
+ 
+ 
+1 Dvt Running For Table User
+THE MD5 Hash : 642b475a5c84cce43e40ca34661dc165
+All Values found in both 559pro , 559pro Databases
+length of DB1 rows 10001, DB2 rows 10001
+Comparing Random Rows
+Random row no :6950
+DB-1 Row : ('Bao Taggart', 'danette-velez@seventh.com', '6659 Parkend Lane', 'Detroit', 'TQ0 8PJ', 'Denmark')
+DB-2 Row : ('Bao Taggart', 'danette-velez@seventh.com', '6659 Parkend Lane', 'Detroit', 'TQ0 8PJ', 'Denmark')
+Row Matched
